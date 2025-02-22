@@ -1,0 +1,79 @@
+{
+  "Appetizers": {
+    "French Fries": 230,
+    "Masala Fries": 250,
+    "Mayo Fries": 300,
+    "Pizza Fries": 550,
+    "Loaded Fries": 600
+  },
+  "Oven Baked Wings": {
+    "Wings (6 Pieces)": 280,
+    "Peri Peri Wings (6 Pieces)": 280,
+    "Wings (12 Pieces)": 500
+  },
+  "Hot Wings": {
+    "6 Pieces": 300,
+    "12 Pieces": 550
+  },
+  "Nuggets": {
+    "6 Pieces": 260,
+    "12 Pieces": 550
+  },
+  "Rolls": {
+    "Spin Roll": 460,
+    "Chicken Roll": 460
+  },
+  "Bread": {
+    "Cheese Supreme Bread (4 Pieces)": 350
+  },
+  "Platter": {
+    "Pizza Lab Platter": 700,
+    "Malai Boti": 500
+  },
+  "Pizza Lab Donner": {
+    "Regular": 450
+  },
+  "Sandwiches": {
+    "Lab Special Sandwich (With Fries)": 600,
+    "Lab Ring Kabab Sandwich (With Fries)": 650,
+    "Five Star (With Fries)": 650,
+    "Double Dacker Wrap": 830,
+    "Lab Special Wrap": 500,
+    "Chicken Stuffed Wrap": 450
+  },
+  "Hot Favourite Deals": {
+    "Deal-1": 900,
+    "Deal-2": 2950,
+    "Deal-3": 1130,
+    "Deal-4": 3000
+  },
+  "Combination Deals": {
+    "Deal-1": 1100,
+    "Deal-2": 2310,
+    "Deal-3": 1580,
+    "Deal-4": 850,
+    "Deal-5": 1360
+  },
+  "MidNight Deals": {
+    "Deal-1": 1600,
+    "Deal-2": 2000,
+    "Deal-3": 1450,
+    "Deal-4": 2300
+  },
+  "Big Deals": {
+    "Mega Deal": 4530,
+    "Royal Deal": 3450,
+    "Family Ties": 1600,
+    "Birthday Bash": 6540
+  },
+  "Beverages": {
+    "Mint Margarita": 150,
+    "Tin Pack": 80,
+    "350 ML": 100,
+    "500 ML": 120,
+    "1 Liter": 170,
+    "1.5 Liter": 220,
+    "Mineral Water (Small)": 60,
+    "Mineral Water (Large)": 100
+  }
+}

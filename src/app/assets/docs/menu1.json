@@ -1,0 +1,112 @@
+{
+    "Burgers": {
+      "Patty Burger": 250,
+      "Crunch Burger": 350,
+      "Tower Burger": 490,
+      "Pizza Burger": 500
+    },
+    "Special Pizzas": {
+      "LAB SPECIAL": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      },
+      "LAB DELIGHT": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      },
+      "MALAI BOTI": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      },
+      "CHICKEN BEHARI KABAB": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      },
+      "PERI PERI PIZZA": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      },
+      "CHICKEN SWEAT CORN": {
+        "S": 480,
+        "M": 1130,
+        "L": 1450,
+        "XL": 2050
+      }
+    },
+    "Traditional Flavour Pizzas": {
+      "CHICKEN TIKKA": {
+        "S": 450
+      },
+      "CHICKEN FAJITA": {
+        "M": 950
+      },
+      "CHICKEN SUPREME": {
+        "L": 1200
+      },
+      "CHEESE LOVER": {
+        "XL": 1800
+      },
+      "VEGGIE LOVER": {
+        "XL": 1800
+      },
+      "EURO": {
+        "XL": 1800
+      },
+      "HOT SICILIAN": {
+        "XL": 1800
+      }
+    },
+    "Stuffed Crust Pizzas": {
+      "KABAB STUFFER": {
+        "M": 1300,
+        "L": 1600,
+        "XL": 2150
+      },
+      "CHEESE STUFFER": {
+        "M": 1300,
+        "L": 1600,
+        "XL": 2150
+      },
+      "CHICKEN & CHEESE": {
+        "M": 1300,
+        "L": 1600,
+        "XL": 2150
+      }
+    },
+    "Pastas": {
+      "Creamy Pasta": {
+        "S": 400,
+        "L": 600
+      },
+      "Lab Special Pasta": {
+        "S": 400,
+        "L": 600
+      },
+      "Crunchy Pasta": {
+        "S": 400,
+        "L": 600
+      }
+    },
+    "Extras": {
+      "Extra Topping": {
+        "Small": 80,
+        "Medium": 120,
+        "Large": 150,
+        "XL": 180
+      },
+      "Sauces": {
+        "Dip Sauce": 50
+      }
+    }
+  }
+  
