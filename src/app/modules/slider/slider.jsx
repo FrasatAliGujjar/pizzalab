@@ -2,10 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import slider_1 from "@/app/assets/images/Slider/p1.png";
-import slider_2 from "@/app/assets/images/Slider/p2.png";
-import slider_3 from "@/app/assets/images/Slider/p3.png";
-import slider_4 from "@/app/assets/images/Slider/p4.png";
+import slider_1 from "@/app/assets/images/Slider/Slide1.png";
+import slider_2 from "@/app/assets/images/Slider/Slide2.png";
+import slider_3 from "@/app/assets/images/Slider/Slide3.png";
+import slider_4 from "@/app/assets/images/Slider/Slide4.png";
 
 const Slider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
