@@ -7,7 +7,25 @@ import slider_2 from "@/app/assets/images/Slider/Slide2.png";
 import slider_3 from "@/app/assets/images/Slider/Slide3.png";
 import slider_4 from "@/app/assets/images/Slider/Slide4.png";
 
+// ______________________________________________
+import { useContext } from "react";
+import { AppContext } from "@/app/context/AppContext.jsx";
+// ______________________________________________
+
+
 const Slider = () => {
+
+
+    // _________________________________________________________
+    //Context Data
+    const {
+        floatNav,
+        setfloatNav,
+    } = useContext(AppContext);
+
+    // _________________________________________________________
+
+
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
         { src: slider_1, alt: 'Image 1' },
@@ -33,7 +51,7 @@ const Slider = () => {
     }, []);
 
     return (
-        <div className="relative w-full mx-auto overflow-hidden">
+        <div className="w-full mx-auto overflow-hidden">
             <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -51,18 +69,6 @@ const Slider = () => {
                     </div>
                 ))}
             </div>
-            <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200"
-            >
-                &#10094;
-            </button>
-            <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-200"
-            >
-                &#10095;
-            </button>
             <div className="flex justify-center mt-2">
                 {images.map((_, index) => (
                     <button

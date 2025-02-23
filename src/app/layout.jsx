@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   const pathname = usePathname();
 
-  const excludePaths = ['/login', '/signup'];
+  const excludePaths = ['/login'];
 
   const shouldShowNavbarAndFooter = !excludePaths.includes(pathname);
 

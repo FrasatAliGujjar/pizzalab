@@ -23,6 +23,7 @@ export const AppProvider = ({ children }) => {
 
     let [dbUsers, setDbUsers] = useState([]);
     let [dbItems, setDbItems] = useState([]);
+    let [floatNav, setfloatNav] = useState(true);
 
     // ========================================
     const LoadingItems = async () => {
@@ -50,6 +51,8 @@ export const AppProvider = ({ children }) => {
     return (
 
         <AppContext.Provider value={{
+            floatNav,
+            setfloatNav,
             dbUsers,
             setDbUsers,
             dbItems,
